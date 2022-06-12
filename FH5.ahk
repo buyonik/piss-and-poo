@@ -7,14 +7,14 @@ SendMode Input
 Class Car{
     __New(MANVNUM, MANHNUM, MANVDIR, MANHDIR, MODELNUM, MODELDIR, MONEY, HOWMANY)
     {
-        this.MANVNUM := MANVNUM
-        this.MANHNUM := MANHNUM
-        this.MANVDIR := MANVDIR
-        this.MANHDIR := MANHDIR
-        this.MODELNUM := MODELNUM
-        this.MODELDIR := MODELDIR
-        this.MONEY := MONEY
-        this.HOWMANY := HOWMANY
+        this.MANVNUM := 16
+        this.MANHNUM := 2
+        this.MANVDIR := down
+        this.MANHDIR := right
+        this.MODELNUM := 7
+        this.MODELDIR := right
+        this.MONEY := 10000000
+        this.HOWMANY := 8
     }
 }
 
